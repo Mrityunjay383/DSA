@@ -38,7 +38,7 @@ void insertAftNode(Node* prev_node, int new_data)
         new_node->next->prev = new_node;
 }
 
-void delete_element(int value)
+void delElement(int value)
 {
     struct node *tmp, *q;
     if (start->data == value)
